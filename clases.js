@@ -42,3 +42,5 @@ user.addPet('Gato')
 user.countPets()
 user.addBook('Harry Potter', 'J.K Rowling')
 user.addBook('El principito', 'Antoine de Saint-Exupéry')
+
+console.log(user)
