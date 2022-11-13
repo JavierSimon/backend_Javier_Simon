@@ -36,11 +36,13 @@ class User {
 }
 
 const user = new User('Pepe', 'Argento')
-user.getFullName()
+
 user.addPet('Perro')
 user.addPet('Gato')
-user.countPets()
 user.addBook('Harry Potter', 'J.K Rowling')
 user.addBook('El principito', 'Antoine de Saint-Exupéry')
 
 console.log(user)
+console.log(user.getFullName())
+console.log(user.countPets())
+console.log(user.getBookNames())
